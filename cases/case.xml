@@ -1,0 +1,868 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <item>
+        <date></date>
+        <tags></tags>
+        <rank></rank>
+        <title></title>
+        <detail></detail>
+        <thumb></thumb>
+    </item>
+</data>
+<ul id="showcaseData" style="display: none">
+    <li tags="ZeroPartner|as3|web|other|offline|favourite" rank='3'>
+        <div class="title">
+            汉斯格雅促销网站/多媒体
+        </div>
+        <div class="date">
+            2012
+        </div>
+        <div class="detail">
+            产品促销网站，分线上/线下触摸屏2个版本，
+            <br/>
+            所有产品和促销折扣率也定义在xml中，
+            <br/>
+            完全由后台CMS控制。
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/hansgroheThumb.jpg"></a>
+            <a class="link" href="http://composer.hansgrohe.com.cn/" target="_blank"></a>
+        </div>
+    </li>
+    <li tags="Yizhi|web|as3" rank='1'>
+        <div class="title">
+            富安达基金活动网站
+        </div>
+        <div class="date">
+            2011.10
+        </div>
+        <div class="detail">
+            福安达基金活动,回答问题，填写留言，领取奖品。
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/fadfunds/fadfunds.jpg"></a>
+            <a class="link" href="http://game.fadfunds.com/" target="_blank"></a>
+        </div>
+    </li>
+    <li tags="MaxBund|web|as3|gaia|deeplink|3d|XML|favourite|fullscreen" rank='5'>
+        <div class="title">
+            雪铁龙中文官网
+        </div>
+        <div class="date">
+            2011.10
+        </div>
+        <div class="detail">
+            大型全动态Flash网站，
+            <br/>
+            框架用Gaia，表现形式用PaperVision 3D,
+            <br/>
+            所有内容和导航由XML控制,模块化开发
+            <br/>
+            as3.0+xml+Gaia+PV3D
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/citroenCnThumb.jpg"></a>
+            <a class="link" href="http://www.citroen.cn/" target="_blank"></a>
+        </div>
+    </li>
+    <li tags="ichaosu|web|as3|XML|Flex|pureMvc|asWing|favourite" rank='4'>
+        <div class="title">
+            ichaosu在线学习系统
+        </div>
+        <div class="date">
+            2011.8
+        </div>
+        <div class="detail">
+            日本语/汉语在线学习系统，
+            <br/>
+            框架PureMvc,组件Aswing
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/ichaosu/thumb.jpg"></a>
+            <a class="link" href="http://chaosu.rgoo.com/sample/sample.aspx" target="_blank"></a>
+        </div>
+        <div class="gallery">
+            <div>
+                <a href="cases/ichaosu/1.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/ichaosu/2.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/ichaosu/3.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/ichaosu/4.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <!--<li tags="ZeroPartner|web|as3|XML|" rank='2'>
+                             <div class="title">
+                                 阿玛尼regenessence
+                             </div>
+                             <div class="date">
+                                 2011.8
+                             </div>
+                             <div class="detail">
+                                 armani regenessence minisite
+                             </div>
+                             <div class='thumb'>
+                                 <a class="img" href="cases/armaniRegenessence/thumb.jpg"></a>
+                                 <a class="link" href="http://armaniregenessence.zeropartner.com/" target="_blank"></a>
+                             </div>
+                         </li>-->
+    <li tags="MaxBund|web|as3|game|favourite" rank='5'>
+        <div class="title">
+            雅漾对对碰
+        </div>
+        <div class="date">
+            2011.8
+        </div>
+        <div class="detail">
+            在线玩对对碰，最高分赢取奖品。
+            <br/>
+            和一般对对碰类似，只是3个症状+产品可以消除一行。
+            <br/>FlashCS3+FDT+as3 | MaxBund
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/avene/duiduipeng_2011/thumb.jpg"></a>
+            <a class="link" href="swf/anvene_duiduipeng/gameTest.html" target="_blank"></a>
+        </div>
+    </li>
+    <li tags="ZeroPartner|offline|as3|touch|XML|favourite" rank='3'>
+        <div class="title">
+            高仪产品触摸屏演示
+        </div>
+        <div class="date">
+            2011
+        </div>
+        <div class="detail">
+            线下触摸屏多媒体，支持滑动拖动，
+            <br/>
+            支持android Flash Palyer
+            <br/>
+            配置文件由XML配置，动画和程序分离。
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/grohe/groheThumb.jpg"></a>
+        </div>
+        <div class="gallery">
+            <div>
+                <a href="cases/grohe/grohe_0.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/grohe/grohe_1.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="ZeroPartner|as3|web|gaia|deeplink|XML" rank='2'>
+        <div class="title">
+            Patyka中文官网
+        </div>
+        <div class="date">
+            2011.1
+        </div>
+        <div class="detail">
+            Flash|Gaia|Deeplink|XML
+        </div>
+        <div class='thumb' link="">
+            <a class="img" href="cases/patykaThumb.jpg"></a>
+            <a class="link" href="http://patyka.com.cn/" target="_blank"></a>
+        </div>
+    </li>
+    <li tags="ZeroPartner|as3|web|gaia|deeplink" rank='1'>
+        <div class="title">
+            Armani Giorgio Site
+        </div>
+        <div class="date">
+            2011.1
+        </div>
+        <div class="detail">
+            Flash minisite|Gaia|Deeplink
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/amanyGiorgio2011/armaniGiorgio2011Thumb.jpg"></a>
+            <!--<a class="link" href="#" target="_blank"></a>-->
+        </div>
+        <div class="gallery">
+            <div>
+                <a href="cases/amanyGiorgio2011/1.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="MaxBund|as3|web|gaia|deeplink" rank="3">
+        <div class="title">
+            Jaguar捷豹75周年site
+        </div>
+        <div class="date">
+            2011.3
+        </div>
+        <div class="detail">
+            捷豹汽车75周年活动网站，
+            <br/>
+            Gaia框架，自适应屏幕，粒子
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/jaguar75/jaguar75thThumb.jpg"></a>
+            <!--<a class="link" href="#" target="_blank"></a>-->
+        </div>
+        <div class="gallery">
+            <div class='info'>
+                网站已下线
+            </div>
+            <div>
+                <a href="cases/jaguar75/1.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/jaguar75/2.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="ZeroPartner|as3|web|gaia|deeplink" rank="1">
+        <div class="title">
+            Sony a55春季/夏季电子杂志
+        </div>
+        <div class="date">
+            2011.4
+        </div>
+        <div class="detail">
+            Sony a55春季/夏季 2期电子杂志
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/sony_a55_magazine/thumb.jpg"></a>
+            <!--<a class="link" href="#" target="_blank"></a>-->
+        </div>
+        <div class="gallery">
+            <div>
+                <a class="img" href="cases/sony_a55_magazine/1.jpg"></a>
+                <div class='info'>
+                    春季
+                </div>
+            </div>
+            <div>
+                <a class="img" href="cases/sony_a55_magazine/2.jpg"></a>
+                <div class='info'>
+                    春季
+                </div>
+            </div>
+        </div>
+    </li>
+    <li tags="ZeroPartner|as3|web|maintain" rank="3">
+        <div class="title">
+            sony全景网站
+        </div>
+        <div class="date">
+            2011.3
+        </div>
+        <div class="detail">
+            sony相机全景网站,
+            <br/>
+            分白天和黑夜2个版本
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/sony_fullscreen_2011/thumb.jpg"></a>
+            <a class="link" href="http://www.sonystyle.com.cn/products/cyber-shot/panorama/night/index.htm"
+               target="_blank"></a>
+        </div>
+    </li>
+    <li tags="ZeroPartner|as3|web|gaia|deeplink" rank="0">
+        <div class="title">
+            Sony ICD产品minisite
+        </div>
+        <div class="date">
+            2010.10
+        </div>
+        <div class="detail">
+            Sony ICD麦克风产品网站，
+            <br/>
+            4个产品，4个minisite。
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/sony_ICD/thumb.jpg"></a>
+            <!--<a class="link" href="#" target="_blank"></a>-->
+        </div>
+    </li>
+    <li tags="ZeroPartner|as3|web|gaia|deeplink" rank="1">
+        <div class="title">
+            理肤泉抗敏产品site
+        </div>
+        <div class="date">
+            2010.10
+        </div>
+        <div class="detail">
+            Flash minisite|Gaia|Deeplink
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/larocheposay2011/larocheposay2011Thumb.jpg"></a>
+            <!--<a class="link" href="#" target="_blank"></a>-->
+        </div>
+        <div class="gallery">
+            <div class='info'>
+                网站已下线
+            </div>
+            <div>
+                <a href="cases/larocheposay2011/1.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/larocheposay2011/2.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="MaxBund|as3|web|gaia|deeplink|fullscreen|favourite" rank="3">
+        <div class="title">
+            佰草集抗衰老活动网站
+        </div>
+        <div class="date">
+            2010.9
+        </div>
+        <div class="detail">
+            用户通过在3个场景中寻找佰草集3种草药，
+            <br/>
+            Gaia｜DeepLink| 自适应全屏
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/herborist-antiage/thumb.jpg"></a>
+            <!--<a class="link" href="#" target="_blank"></a>-->
+        </div>
+        <div class="gallery">
+            <div class='info'>
+                网站已下线
+            </div>
+            <div>
+                <a href="cases/herborist-antiage/1.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/herborist-antiage/3.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/herborist-antiage/2.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="EnergySource|as3|web|gaia|deeplink|fullscreen|" rank="3">
+        <div class="title">
+            多乐士 let's color活动网站
+        </div>
+        <div class="date">
+            2010.9
+        </div>
+        <div class="detail">
+            多乐士 let's color活动网站，二期和三期，用户上传图片/留言
+            <br/>
+            Gaia｜DeepLink | @EnergySource
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/dulux_lets_color/thumb.jpg"></a>
+            <!--<a class="link" href="#" target="_blank"></a>-->
+        </div>
+        <div class="gallery">
+            <div class='info'>
+                网站已下线
+            </div>
+            <div>
+                <a href="cases/dulux_lets_color/1.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/dulux_lets_color/3.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/dulux_lets_color/2.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/dulux_lets_color/4.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <!--<li tags="offline|as2|game">
+                         <div class="title">
+                         触动传媒小游戏
+                         </div>
+                         <div class="date">
+                         2010.8
+                         </div>
+                         <div class="detail">
+                         出租车触摸屏设备上运行的游戏，<br/>FlashPlayer7+AS2
+                         </div>
+
+                         <div class='thumb'>
+                         <a class="img" href="cases/touchMediaGame2010/thumb.jpg"></a>
+                         </div>
+                         </li>-->
+    <li tags="NurunNdpc|web|as3|xml|" rank='2'>
+        <div class="title">
+            欧莱雅各种在线互动
+        </div>
+        <div class="date">
+            2009-2010
+        </div>
+        <div class="detail">
+            开发各种以xml+as3的、可快速本地化的Flash应用.
+
+            XML+As3 | @NurunNdpc
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/loreal/other/thumb.jpg"></a>
+        </div>
+        <div class="gallery">
+            <div>
+                <a href="cases/loreal/other/thegenesofscience.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/loreal/other/preference.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/loreal/other/elvive.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/loreal/other/diagnose.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="NurunNdpc|web|as3|xml|favourite|deeplink|swfaddress" rank='4'>
+        <div class="title">
+            欧莱雅Excell 10
+        </div>
+        <div class="date">
+            2009
+        </div>
+        <div class="detail">
+            欧莱雅染发产品Excell10网站，多国语言版。
+            <br/>
+            XML+As3 | DeepLink(SwfAdress)
+            <br/>
+            @NurunNdpc
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/loreal/excell_10/thumb.jpg"></a>
+        </div>
+        <div class="gallery">
+            <div>
+                <a href="cases/loreal/excell_10/1.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/loreal/excell_10/2.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/loreal/excell_10/3.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="NurunNdpc|web|as2" rank='2'>
+        <div class="title">
+            欧莱雅men expert
+        </div>
+        <div class="date">
+            2009
+        </div>
+        <div class="detail">
+            欧莱雅men expert网站，多国语言版。
+            <br/>
+            As2 | @NurunNdpc
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/loreal/menexpert/thumb.jpg"></a>
+        </div>
+        <div class="gallery">
+            <div>
+                <a href="cases/loreal/menexpert/1.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/loreal/menexpert/2.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/loreal/menexpert/3.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="NurunNdpc|web|as2" rank='2'>
+        <div class="title">
+            欧莱雅studioLine
+        </div>
+        <div class="date">
+            2009
+        </div>
+        <div class="detail">
+            欧莱雅studioLine网站，多国语言版。
+            <br/>
+            As2 | @NurunNdpc
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/loreal/studio_line/thumb.jpg"></a>
+        </div>
+        <div class="gallery">
+            <div>
+                <a href="cases/loreal/studio_line/1.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/loreal/studio_line/2.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/loreal/studio_line/3.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/loreal/studio_line/4.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="web|game|as2|favourite" rank='5'>
+        <div class="title">
+            Malibu沙滩排球
+        </div>
+        <div class="date">
+            2008
+        </div>
+        <div class="detail">
+            在线玩Malibu沙滩排球，赢取奖品。
+            <br/>
+            规则：控制左面角色，和右面NPC对抗沙滩排球.
+            <br/>
+            as2 | @NurunNdpc
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/malibu_game/thumb.jpg"></a>
+            <a class="link" href="swf/malibu_paiqiu/game.html"></a>
+        </div>
+    </li>
+    <li tags="web|as2|favourite" rank='4'>
+        <div class="title">
+            一汽宝来网站
+        </div>
+        <div class="date">
+            2008
+        </div>
+        <div class="detail">
+            通过八个宝来车主的生活介绍车子卖点。
+            <br/>
+            as2 | @NurunNdpc
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/faw/bora_8men/thumb.jpg"></a>
+        </div>
+        <div class="gallery">
+            <div>
+                <a href="cases/faw/bora_8men/1.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/faw/bora_8men/2.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/faw/bora_8men/3.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/faw/bora_8men/4.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <!--
+                         <li tags="MaxBund|web|as3|game|" rank='0'>
+                         <div class="title">
+                         雅漾Oily小游戏
+                         </div>
+                         <div class="date">
+                         2011.8
+                         </div>
+                         <div class="detail">
+                         在线游戏，类似来找茬，给卡通角色消除斑点，赢取奖品。
+                         </div>
+
+                         <div class='thumb'>
+                         <a class="img" href="cases/avene/oily/thumb.jpg"></a>
+                         </div>
+                         <div class="gallery">
+                         <div><a href="cases/avene/oily/1.jpg"></a></div>
+                         <div><a href="cases/avene/oily/2.jpg"></a></div>
+                         </div>
+                         </li>
+
+                         <li tags="web|as2|web" rank='0'>
+                         <div class="title">
+                         雅漾 换彩遮瑕site
+                         </div>
+                         <div class="date">
+                         2008
+                         </div>
+                         <div class="detail">
+                         雅漾换彩遮瑕网站，玩游戏（选择互补色），获取抽奖机会。
+                         <br/>Flash + as2.0 | @NurunChina
+                         </div>
+
+                         <div class='thumb'>
+                         <a class="img" href="cases/avene/couvrance/thumb.jpg"></a>
+                         </div>
+                         <div class="gallery">
+                         <div><a href="cases/avene/couvrance/1.jpg"></a></div>
+                         <div><a href="cases/avene/couvrance/2.jpg"></a></div>
+                         <div><a href="cases/avene/couvrance/3.jpg"></a></div>
+                         </div>
+                         </li>
+
+                         <li tags="web|as2|web" rank='0'>
+                         <div class="title">
+                         雅漾 抗皮炎 site
+                         </div>
+                         <div class="date">
+                         2008
+                         </div>
+                         <div class="detail">
+                         雅漾抗皮炎 minisite
+                         <br/>Flash + as2.0 | @NurunChina
+                         </div>
+
+                         <div class='thumb'>
+                         <a class="img" href="cases/avene/atopic/thumb.jpg"></a>
+                         <!--<a class="link" href="http://www.eau-thermale-avene.cn/minisite/atopic/" target="_blank"></a>
+                         </div>
+                         <div class="gallery">
+                         <div><a href="cases/avene/atopic/1.jpg"></a></div>
+                         <div><a href="cases/avene/atopic/2.jpg"></a></div>
+                         </div>
+                         </li>
+
+                         <li tags="web|as2|web" rank='0'>
+                         <div class="title">
+                         雅漾 祛红保湿 site
+                         </div>
+                         <div class="date">
+                         2008
+                         </div>
+                         <div class="detail">
+                         雅漾祛红保湿 minisite
+                         <br/>Flash + as2.0 | @NurunChina
+                         </div>
+
+                         <div class='thumb'>
+                         <a class="img" href="cases/avene/anti-red/thumb.jpg"></a>
+                         </div>
+                         <div class="gallery">
+                         <div><a href="cases/avene/anti-red/1.jpg"></a></div>
+                         <div><a href="cases/avene/anti-red/2.jpg"></a></div>
+                         </div>
+                         </li>
+
+                         <li tags="web|as2|web" rank='0'>
+                         <div class="title">
+                         雅漾 抗衰老 site
+                         </div>
+                         <div class="date">
+                         2007
+                         </div>
+                         <div class="detail">
+                         抗衰老Anti-Age minisite
+                         <br/>Flash + as2.0 | @NurunChina
+                         </div>
+
+                         <div class='thumb'>
+                         <a class="img" href="cases/avene/anti-age/thumb.jpg"></a>
+                         </div>
+                         <div class="gallery">
+                         <div><a href="cases/avene/anti-age/1.jpg"></a></div>
+                         <div><a href="cases/avene/anti-age/2.jpg"></a></div>
+                         <div><a href="cases/avene/anti-age/3.jpg"></a></div>
+                         </div>
+                         </li>-->
+    <li tags="web|as2|web" rank='1'>
+        <div class="title">
+            一汽大众Flash
+        </div>
+        <div class="date">
+            2007-2008
+        </div>
+        <div class="detail">
+            开发包括迈腾，宝来等品牌多个Flash应用
+            <br/>
+            Flash + as2.0 | @NurunChina
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/faw/thumb.jpg"></a>
+        </div>
+        <div class="gallery">
+            <div>
+                <a href="cases/faw/magotan_1.8L/1.jpg" title="迈腾1.8L minisite"></a>
+            </div>
+            <div>
+                <a href="cases/faw/magotan_1.8L/2.jpg" title="迈腾1.8L minisite"></a>
+            </div>
+            <div>
+                <a href="cases/faw/magotan_award/1.jpg" title="迈腾荣耀 minisite"></a>
+            </div>
+            <div>
+                <a href="cases/faw/magotan_award/2.jpg" title="迈腾荣耀minisite"></a>
+            </div>
+            <div>
+                <a href="cases/faw/bora_classic/1.jpg" title="经典宝来site"></a>
+            </div>
+            <div>
+                <a href="cases/faw/bora_classic/2.jpg" title="新宝来Flash"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="web|as2|as3|web" rank='1'>
+        <div class="title">
+            雅漾多个品牌minisite
+        </div>
+        <div class="date">
+            2007-2008
+        </div>
+        <div class="detail">
+            开发雅漾多个产品minisite，有奖互动小游戏包括: <strong>换彩遮瑕、 抗衰老、抗敏皮炎 、 祛红保湿系列、 ETA</strong> 等
+            <br/>
+            Flash + as2.0 | @NurunChina
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/avene/thumb.jpg"></a>
+        </div>
+        <div class="gallery">
+            <div>
+                <a href="cases/avene/eta/1.jpg" title="雅漾ETA as2"></a>
+            </div>
+            <div>
+                <a href="cases/avene/eta/2.jpg" title="雅漾ETA as2"></a>
+            </div>
+            <div>
+                <a href="cases/avene/oily/1.jpg" title="oily系列 有奖小游戏 as3"></a>
+            </div>
+            <div>
+                <a href="cases/avene/oily/2.jpg" title="oily系列 有奖小游戏 as3"></a>
+            </div>
+            <div>
+                <a href="cases/avene/couvrance/1.jpg" title="换彩遮瑕couvrance minisite"></a>
+            </div>
+            <div>
+                <a href="cases/avene/couvrance/2.jpg" title="换彩遮瑕couvrance minisite"></a>
+            </div>
+            <div>
+                <a href="cases/avene/couvrance/3.jpg" title="换彩遮瑕couvrance minisite"></a>
+            </div>
+            <div>
+                <a href="cases/avene/anti-red/1.jpg" title="祛红保湿系列 minisite"></a>
+            </div>
+            <div>
+                <a href="cases/avene/anti-red/2.jpg" title="祛红保湿系列 minisite"></a>
+            </div>
+            <div>
+                <a href="cases/avene/anti-age/1.jpg" title="抗衰老 系列minisite"></a>
+            </div>
+            <div>
+                <a href="cases/avene/anti-age/2.jpg" title="抗衰老 系列minisite"></a>
+            </div>
+            <div>
+                <a href="cases/avene/atopic/1.jpg" title="抗敏皮炎系列minisite"></a>
+            </div>
+            <div>
+                <a href="cases/avene/atopic/2.jpg" title="抗敏皮炎系列minisite"></a>
+            </div>
+            <div>
+                <a href="cases/avene/expert/1.jpg" title="雅漾expert"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="web|as2|web|favourite" rank='3'>
+        <div class="title">
+            雅漾SunCare网站
+        </div>
+        <div class="date">
+            2007
+        </div>
+        <div class="detail">
+            雅漾SunCare网站，玩游戏（帮助角色收集产品），获取抽奖机会。
+            <br/>
+            Flash + as2.0 | @NurunChina
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/avene/suncare/thumb.jpg"></a>
+            <a class="link" href="http://www.eau-thermale-avene.cn/minisite/suncare/index.html" target="_blank"></a>
+        </div>
+        <div class="gallery">
+            <div>
+                <a href="cases/avene/suncare/1.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/avene/suncare/2.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/avene/suncare/3.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/avene/suncare/4.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="web|as2|web" rank='2'>
+        <div class="title">
+            Olay AMJ 网站
+        </div>
+        <div class="date">
+            2007
+        </div>
+        <div class="detail">
+            Olay AMJ 网站
+            <br/>
+            Flash + as2.0 | @NurunChina
+        </div>
+        <div class='thumb'>
+            <a class="img" href="cases/olay/amj/thumb.jpg"></a>
+        </div>
+        <div class="gallery">
+            <div>
+                <a href="cases/olay/amj/1.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/olay/amj/2.jpg"></a>
+            </div>
+            <div>
+                <a href="cases/olay/amj/3.jpg"></a>
+            </div>
+        </div>
+    </li>
+    <li tags="web|as2|game|favourite" rank=5>
+    <div class="title">
+        麻将连连看
+    </div>
+    <div class="date">
+        2007
+    </div>
+    <div class="detail">
+        FlashPlayer8+AS2
+    </div>
+    <div class='thumb'>
+        <a class="img" href="cases/mjlianliankan/thumb.jpg"></a>
+        <a class="link" href="swf/game/mjconnect.html"></a>
+    </div>
+</li>
+<li tags="offline|as1|game|lite|favourite" rank='5'>
+<div class="title">
+    空档接龙
+</div>
+<div class="date">
+    2006
+</div>
+<div class="detail">
+    日系手机Lite1.1版空档接龙游戏，
+    <br/>
+    用方向/数字键盘操作角色，将扑克牌排列起来
+    <br/>
+    Flash8+AS1+Flash Lite（<100KB）| @digiturbo
+</div>
+<div class='thumb'>
+    <a class="img" href="cases/lite/cardThumb.jpg"></a>
+    <a class="link" href="swf/lite/card.html"></a>
+</div>
+</li>
+<li tags="offline|as1|game|lite|favourite" rank='4.5'>
+<div class="title">
+    烧肉奉行
+</div>
+<div class="date">
+    2006
+</div>
+<div class="detail">
+    日系手机Lite1.1游戏，用方向/数字键盘翻动烧烤食材，按角色偏好供给不同烧烤程度的食物
+    <br/>
+    Flash8+AS1+Flash Lite（<100KB）| @digiturbo
+</div>
+<div class='thumb'>
+    <a class="img" href="cases/lite/meatThumb.jpg"></a>
+    <a class="link" href="swf/lite/meat.html"></a>
+</div>
+</li>
+        </ul>

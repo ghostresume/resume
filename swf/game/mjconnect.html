@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>GameDemon</title>
+		<script type="text/javascript" src="js/swfobject.js"></script>
+		<script type="text/javascript">
+			var params = {
+				quality : "high",
+				scale : "noscale",
+				wmode : "transparent",
+				allowscriptaccess : "always",
+				bgcolor : "#FFFFFF"
+			};
+			var flashvars = {
+			};
+			var attributes = {
+			};
+			swfobject.embedSWF("mjconect.swf", "swf", "750", "555", "10.0.0", "js/expressInstall.swf", flashvars, params, attributes);
+
+		</script>
+		<style type="text/css">
+			body {
+				text-align: center;
+			}
+			#wrap {
+				margin: 0 auto;
+				width: 750px;
+			}
+			#title {
+				font-weight: bold;
+				font-size: 18px;
+			}
+			#swf {
+				height: 555px;
+				border: 1px #ccc solid;
+			}
+		</style>
+	</head>
+	<body>
+		<!--swf -->
+		<div id="wrap">
+			<div id="swf"></div>
+	</body>
+</html>

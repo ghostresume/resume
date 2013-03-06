@@ -1,0 +1,46 @@
+<root>
+	<top>
+		<player>
+			<name>no.1--名字</name>
+			<score>120000</score>
+		</player>
+		<player>
+			<name>no.2名字<liutao></liutao></name>
+			<score>120000</score>
+		</player>
+		<player>
+			<name>No 3名字</name>
+			<score>120000</score>
+		</player>
+		<player>
+			<name>名字4</name>
+			<score>120000</score>
+		</player>
+		<player>
+			<name>名字5</name>
+			<score>120000</score>
+		</player>
+		<player>
+			<name>名字6</name>
+			<score>120000</score>
+		</player>
+		<player>
+			<name>中文名7</name>
+			<score>120000</score>
+		</player>
+		<player>
+			<name>名字8</name>
+			<score>120000</score>
+		</player>
+		<player>
+			<name>名字9</name>
+			<score>120000</score>
+		</player>
+		<player>
+			<name>名字10</name>
+			<score>120000</score>
+		</player>
+	</top>
+	<myrank>7</myrank>
+</root>
+
