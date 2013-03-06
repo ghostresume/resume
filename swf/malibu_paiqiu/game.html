@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>GameDemon</title>
+    <script type="text/javascript" src="js/swfobject.js"></script>
+    <script type="text/javascript">
+        var params = {
+            quality:"high",
+            scale:"noscale",
+            wmode:"transparent",
+            allowscriptaccess:"always",
+            bgcolor:"#FFFFFF"
+        };
+        var flashvars = {
+        };
+        var attributes = {
+        };
+        swfobject.embedSWF("game.swf", "swf", "845", "480", "10.0.0", "js/expressInstall.swf", flashvars, params, attributes);
+        function urchinTracker(){
+        }
+    </script>
+    <style type="text/css">
+        body {
+            text-align: center;
+        }
+
+        #wrap {
+            margin: 0 auto;
+            width: 845px;
+        }
+
+        #title {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        #swf {
+            width: 845px;
+            height: 480px;
+            border: 1px #ccc solid;
+        }
+
+        #info {
+            width: 550px;
+            font-size: 13px;
+            line-height: 18px;
+            margin: 3px auto;
+            padding: 5px 15px;
+            text-align: left;
+            border: 1px #e3e3e3 solid;
+        }
+
+        .comment {
+            color: #333;
+            font-size: 10px;
+        }
+    </style>
+</head>
+<body>
+<!--swf -->
+<div id="wrap">
+    <div id="swf"></div>
+    <div id='title'>沙滩排球</div>
+    <div id='info'><b>规则：</b>控制左面的角色，和右面NPC对抗。游戏中还有马爹利酒掉落，接住+1分。
+        <br/><b>按键：</b><b>方向键</b>控制角色左右和跳起（只有空手才能跳哦），按<b>空格建</b>发球/击球（可以蓄力）
+        <br/>FlashCS3 + As2.0
+    </div>
+</div>
+</body>
+</html>

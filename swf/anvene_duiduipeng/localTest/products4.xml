@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<product>
+	<!-- 205x130 -->
+	<item>
+		<link url="http://www.eau-thermale-avene.cn/product.aspx?seriesid=19" target="_self" />
+		<image url="localTest/product3_1.png" />
+	</item>
+	<item>
+		<link url="http://www.eau-thermale-avene.cn/product.aspx?seriesid=26" target="_self" />
+		<image url="localTest/product2.png" />
+	</item>
+	<item>
+		<link url="http://www.eau-thermale-avene.cn/product.aspx?seriesid=18" target="_self" />
+		<image url="localTest/product3_4.png" />
+	</item>
+	<item>
+		<link url="http://www.eau-thermale-avene.cn/product.aspx?seriesid=18" target="_self" />
+		<image url="localTest/product3_5.png" />
+	</item>
+	<item>
+		<link url="http://www.eau-thermale-avene.cn/product.aspx?seriesid=18" target="_self" />
+		<image url="localTest/product3_6.png" />
+	</item>
+	<item>
+		<link url="http://www.eau-thermale-avene.cn/product.aspx?seriesid=18" target="_self" />
+		<image url="localTest/product3_7.png" />
+	</item>
+	<item>
+		<link url="http://www.eau-thermale-avene.cn/product.aspx?seriesid=18" target="_self" />
+		<image url="localTest/product3_10.png" />
+	</item>
+</product>

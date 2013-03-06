@@ -1,0 +1,58 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>GameDemon</title>
+<script type="text/javascript" src="js/swfobject.js"></script>
+<script type="text/javascript">
+	//插入game.swf;
+	function embedGameSwf(flashId,swfUrl){
+		//alert("embedScoreBarSwf");
+		var params = {
+			quality: "high",
+			scale: "noscale",
+			wmode: "transparent",
+			allowscriptaccess: "always",
+			bgcolor: "#FFFFFF"
+		};
+		var flashvars = {	
+			dataXML:"localTest/score.xml"	
+		};
+		var attributes = {		
+		};		
+		swfobject.embedSWF(swfUrl, flashId, "1000", "555", "10.0.0", "js/expressInstall.swf", flashvars, params, attributes);
+	}	
+</script>
+<script type="text/javascript">	
+	//插入scoreBar.swf
+	function embedScoreBarSwf(flashId,swfUrl){
+		//alert("embedScoreBarSwf");
+		var params = {
+			quality: "high",
+			scale: "noscale",
+			wmode: "transparent",
+			allowscriptaccess: "always",
+			bgcolor: "#FFFFFF"
+		};
+		var flashvars = {
+			dataXML:"localTest/score.xml"
+		};
+		var attributes = {		
+		};		
+		swfobject.embedSWF(swfUrl, flashId, "1000", "37", "10.0.0", "js/expressInstall.swf", flashvars, params, attributes);
+	}	
+</script>
+</head>
+<body>
+
+  <!--duiduipeng.swf -->
+<div id="duiduipeng" style="width: 1000px; height: 555px"></div>
+  <script type="text/javascript">embedGameSwf("duiduipeng","duiduipeng.swf");</script> 
+   
+  <br/>
+  <!--测试单独的bar
+scoreBar.swf
+<div id="scoreBar" style="width: 635px; height: 37px"></div>
+<script type="text/javascript">embedScoreBarSwf("scoreBar","scoreBar.swf");</script>   -->
+</body>
+</html>

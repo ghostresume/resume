@@ -1,0 +1,706 @@
+/* CSS Document  */
+/*==================default=========================*/
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, form, fieldset, legend, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    list-style-position: inside;
+}
+
+/*===============Basic=========================*/
+html {
+    height: 100%;
+}
+
+body {
+    font-family: '微软雅黑', '黑体', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    background-color: #090909;
+
+}
+
+#mainWraper {
+    width: 950px; /*---------宽度-----*/
+    margin: 0px auto;
+    background-color: #000;
+
+}
+
+.clear {
+    clear: both;
+}
+
+#footWraper {
+    /*margin: 0px auto;*/
+    /*border-top:#EEE 1px dashed;*/
+    /*position:fixed;*/
+    margin-top: 5px;
+    background-color: #090909;
+    bottom: 0px;
+    z-index: 999;
+}
+
+#footWraper div {
+    width: 950px;
+    margin: 0 auto;
+    font-size: 12px;
+    color: #aaa;
+    text-align: center;
+}
+
+#footWraper .ghostFlash {
+    color: #777;
+}
+
+/*========================导航======================*/
+#mainNavWraper {
+    height: 29px;
+    /*border: 1px solid #555;*/
+    background-color: #333;
+    /*box-shadow: 0px 0px 5px 0px #eee;*/
+    background-image: url(../img/navbackground3.jpg);
+
+}
+
+#mainNav {
+    width: 100%;
+    height: 28px;
+    line-height: 28px;
+    /*border: 1px solid #333;*/
+}
+
+#mainNav li {
+    display: inline;
+    float: left;
+    list-style-type: none;
+    cursor: pointer;
+}
+
+/*------------------------------------------*/
+#mainNav li {
+    font-weight: bold;
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+    background-color: #666;
+    background-image: url(../img/navbackground3.jpg);
+    border-right: 1px solid #555;
+    cursor: pointer;
+    /*border-right: 1px solid #FFF;*/
+}
+
+#mainNav a, #mainNav a:visited {
+    text-decoration: none;
+    font-family: '微软雅黑';
+    letter-spacing: 1px;
+    font-size: 15px;
+    font-weight: 580;
+    color: #000;
+    /*text-shadow: #FFF 1px 1px 3px;*/
+}
+
+/*-----------选中mouseOver样式------------------*/
+#mainNav .btnSelected {
+    background-color: #444;
+    background-image: url(../img/navbackground4.jpg);
+}
+
+#mainNav .btnSelected a, #mainNav .btnSelected a:visited {
+    color: #FFF;
+    text-shadow: #000 1px 1px 0px;
+}
+
+#mainNav .btnOver {
+    background-color: #333;
+    background-image: url(../img/navbackground2.jpg);
+}
+
+#mainNav .btnOver a, #mainNav .btnOver a:visited {
+    color: #aaa;
+    /*text-shadow: #ccc 1px 1px 1px;*/
+}
+
+/*======================页面============================*/
+#pageWraper {
+    width: 950px; /*---------宽度-----*/
+    /*height: 10px;*/
+    overflow: hidden;
+    position: relative;
+    margin: 2px auto 0px auto;
+    padding-bottom: 15px;
+    /*border: 1px solid rgb(189,189,189);
+      border-radius: 5px;
+      background-color: rgb(220,220,220);
+      box-shadow: 0px 0px 10px 1px #aaa;*/
+    /*text-shadow: rgba(255, 255, 255, 0.496094) 0px 1px 0px;*/
+    /*background-image: url(../img/texture.jpg);*/
+}
+
+.page {
+    width: 908px;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+    /*display:none;*/
+    /*border: 1px solid #FFF;*/
+    /*border-radius: 5px;*/
+    padding: 0px 0px 0px 0px;
+    /*background-color: #000;	*/
+
+}
+
+.page h2 {
+    /*color: #888;*/
+    color: #aaa;
+    font-size: 24px;
+    text-shadow: #333 2px 2px 0px;
+}
+
+/*===================基本面板==========================*/
+.panelWrapper {
+    border-radius: 5px; /*--圆角--*/
+    border: 1px solid #444; /*--边框--*/
+    box-shadow: 0px 0px 1px 0px #444; /*--阴影--*/
+}
+
+.panel {
+    /*margin-bottom: 1px;*/
+    border-radius: 5px; /*-圆角--*/
+    overflow: hidden; /*--溢出--*/
+    border: 3px solid #333; /*--边框--*/
+}
+
+.panel .panelTitle {
+    padding: 5px 5px 5px 8px;
+    font-size: 14px;
+    background-color: #333;
+    color: #000;
+    /*border-top-left-radius: 5px;
+      border-top-right-radis: 5px;*/
+}
+
+.panel .panelContent {
+    color: #aaa;
+    background-color: #151515;
+    /*
+      background-color: #000;
+      color: #bababa;*/
+    /*border-bottom-left-radius: 5px;/*--圆角--
+      border-bottom-right-radis: 5px;*/
+}
+
+/*=========================================技能页面============================================================*/
+#homePage {
+    padding: 0px 10px 5px 10px;
+}
+
+#homePage h2 {
+    padding: 15px 0px 0px 0px;
+}
+
+#homePage .pageContent {
+    /*background: #111;
+      border: 1px #33353a solid;*/
+    width: 908px;
+    padding: 8px 8px;
+}
+
+/*==================基本信息面板=======================*/
+#basicInfo {
+    /*position: relative;*/
+    width: 700px;
+    /*float: left;*/
+}
+
+/*====================表格========================*/
+#basicInfo .tableWraper {
+    /*float: left;*/
+    padding: 0px;
+}
+
+#basicInfo table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+#basicInfo table, #basicInfo table td, #basicInfo table tr {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*--奇偶--*/
+/*
+ #basicInfo table tr.odd {
+ background-color: #222;
+ }
+ #basicInfo table tr.even {
+ background-color: #333;
+ }
+ #basicInfo table tr.odd:hover {
+ background-color: #e3e3ff;
+ }
+ #basicInfo table tr.even:hover {
+ background-color: #f3f3ff;
+ }*/
+/*---单元格式--*/
+#basicInfo table td {
+    text-align: center;
+    font-family: '微软雅黑';
+    font-size: 13px;
+    padding: 0px 5px 0px 5px;
+    height: 25px;
+    line-height: 25px;
+    border: 1px solid #222;
+}
+
+#basicInfo table td.normal {
+    font-weight: normal;
+    letter-spacing: 5px;
+    /*color: #aaa;*/
+}
+
+#basicInfo table .number {
+    letter-spacing: 0px !important;
+}
+
+#basicInfo table td.strong {
+    text-align: right;
+    font-weight: bold;
+    letter-spacing: 3px;
+    color: #555;
+}
+
+#basicInfo table td.empty {
+    width: 30%;
+}
+
+/*===============技能面板==============*/
+#skillPage {
+    padding: 0px 10px 5px 10px;
+}
+
+#skillPage h2 {
+    padding: 15px 0px 0px 0px;
+}
+
+#skillInfo {
+    margin-top: 10px;
+}
+
+#skillInfo .panelContent {
+    padding: 3px 15px;
+    font-size: 13px;
+    line-height: 25px;
+}
+
+#skillInfo .panelContent h3 {
+    display: inline;
+    font-size: 15px;
+}
+
+#skillInfo .panelContent ul ul {
+    padding-left: 8px;
+}
+
+#skillInfo .panelContent ul {
+    list-style-position: outside;
+}
+
+/*================================================案例==================================================*/
+#casesPage {
+    padding: 0px 10px 5px 10px;
+}
+
+#casesPage h2 {
+    /*position: absolute;
+      top: 15px;*/
+    padding: 15px 0px 8px 0px;
+}
+
+#showCaseWrapper {
+    background: #151515;
+    border: 1px #33353a solid;
+    border-radius: 5px; /*--圆角--*/
+    width: 908px;
+    margin-top: 8px;
+    padding-bottom: 5px;
+}
+
+/*=============pager==================*/
+#showCaseWrapper .showCasePagger {
+    height: 15px;
+    width: 908px;
+}
+
+.showCasePagger .pager {
+    float: right;
+    margin-right: 10px;
+    padding: 0px 5px;
+    /*background: #222;*/
+}
+
+.showCasePagger .pageNum {
+    float: left;
+    display: inline;
+    background: #222;
+    padding: 0px 3px;
+    font-size: 12px;
+    border-right: #000 1px solid;
+    color: #fff;
+    cursor: pointer;
+}
+
+.showCasePagger .pageNumCurrent {
+    text-decoration: none;
+    color: #eee;
+    font-weight: bold;
+    cursor: auto;
+    background: #666;
+}
+
+.showCasePagger .pageNumOver {
+    background: #666;
+    text-decoration: underline;
+}
+
+/*===========================*/
+#showCaseBox {
+    /*height: 100%;*/
+    /*overflow: hidden;*/
+    position: relative;
+    top: 0px;
+    left: 0px;
+    width: 908px;
+}
+
+#showCaseBox .item {
+    border-radius: 5px;
+    width: 260px;
+    height: 200px;
+    position: absolute;
+    overflow: hidden;
+    border: 8px solid #444;
+    box-shadow: #aaa 0px 0px 2px;
+}
+
+#showCaseBox .item_hover {
+    border: 8px solid #666;
+    box-shadow: #888 0px 0px 8px;
+}
+
+#showCaseBox .item img {
+    width: 260px;
+    height: 200px;
+    background-color: #eee;
+    position: absolute;
+    top: 0px;
+}
+
+#showCaseBox .item .thumLoading{
+    width: 260px;
+    height: 200px;
+    background-color: #fff;
+    position: absolute;
+    top: 0px;
+    z-index: 0;
+    background-image: url(../img/lightbox-ico-loading.gif);
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+}
+
+/*================*/
+#showCaseBox .item .meta {
+    position: absolute;
+    z-index: 2;
+    top: 0px;
+    width: 260px;
+    height: 16px;
+    text-align: center;
+    padding: 0px 0px 3px 0px;
+    color: #ccc;
+    background-color: #444;
+    opacity: 0.95;
+    overflow: hidden;
+    filter:alpha(opacity=95);
+}
+
+#showCaseBox .item_hover .meta {
+    position: relative;
+    background-color: #666;
+    opacity: 0.95;
+    filter:alpha(opacity=95);
+}
+
+#showCaseBox .item .meta .rank {
+    display: inline;
+    position: absolute;
+    left:0px;
+    margin-left: 3px;
+    font-size: 11px;
+    font-family: Arial Verdana;
+    color:#bbb;
+}
+
+#showCaseBox .item .meta .link {
+    display: none;
+    float: right;
+    width: 15px;
+    height: 12px;
+    overflow: hidden;
+    background: url(../img/link.jpg) no-repeat;
+}
+
+#showCaseBox .item .meta .zoom {
+    display: inline;
+    float: right;
+    width: 14px;
+    height: 14px;
+    overflow: hidden;
+    background: url(../img/zoom.jpg) no-repeat;
+}
+
+/*=================*/
+#showCaseBox .item .info {
+    /*display: none;*/
+    width: 250px;
+    padding: 8px 5px 5px 5px;
+    position: absolute;
+    z-index: 3;
+    bottom: 0px;
+    background-color: #333;
+    text-shadow: #000 1px 1px 1px;
+    opacity: 0.5;
+    color: #FFF;
+}
+
+#showCaseBox .item_hover .info {
+    background-color: #666;
+    opacity: 0.95;
+}
+
+#showCaseBox  .item .info .summary {
+    margin: 0px;
+    padding: 5px 0px;
+    height: 18px;
+}
+
+#showCaseBox  .item .info .title {
+    display: inline;
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#showCaseBox  .item .info .title, #showCaseBox .item .info .title a, #showCaseBox .item .info .title a:visited, #showCaseBox .item .info .title a:hover {
+    font-weight: normal;
+    /*border: 1px #fff solid;*/
+    margin: 0px;
+}
+
+#showCaseBox .item  .info .date {
+    display: inline;
+    float: right;
+    font-size: 10px;
+    line-height: 18px;
+    /*border: 1px #fff solid;*/
+}
+
+#showCaseBox  .item .info .detail {
+    display: none;
+    float: left;
+    clear: both;
+    font-size: 12px;
+    padding: 3px 0px;
+    margin: 0px;
+    line-height: 15px;
+    width: 100%;
+    /*border: 1px solid #fff;*/
+}
+
+/* ==================work nav==========*/
+#showCaseNavContainer {
+    width: 908px;
+    margin-bottom: 3px;
+    font-size: 16px;
+    line-height: 28px;
+    border: 1px #444 solid;
+    border-radius: 5px;
+    height: 30px;
+    /*position: relative;
+      top: 12px;
+      left: 0px;z-index: 1;*/
+    background: #333;
+    background-image: url(../img/navbackground.jpg);
+}
+
+#showCaseNavWraper .choose {
+    /*display: none;*/
+    padding: 0px 10px;
+    color: #e7ecfe;
+    font-size: 14px;
+    float: left;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 13px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background: #333;
+    background-image: url(../img/navbackground.jpg);
+    color: #000;
+}
+
+.showCaseNav_over {
+    background: #444 !important;
+    border: 1px #666 solid !important;
+}
+
+.showCaseNav_over .choose {
+    color: #fff !important;
+    background: #444 !important;
+}
+
+#showCaseNav {
+    margin-top: 1px;
+    /*margin-right: 0px;
+      padding: 0px 5px;
+      border: #fff 1px solid;
+      background: #EaEaEa;*/
+    /*border: 1px #555 solid;*/
+    float: left;
+}
+
+#showCaseNav li {
+    display: inline;
+    float: left;
+    list-style-type: none;
+    cursor: pointer;
+    padding: 0px 10px;
+    /*text-decoration: overline;*/
+
+    border-left: #333 1px solid;
+    background: #383838;
+    background-image: url(../img/navbackground.jpg);
+    color: #afafaf;
+}
+
+#showCaseNav li.btnOver {
+    background: #555;
+    color: #000;
+}
+
+#showCaseNav li.btnSelected {
+    font-weight: 700;
+    text-shadow: #FFF 0px 0px 0px;
+    background: #666;
+    color: #FFF;
+    /*background-image: url(../img/navbackground2.jpg);*/
+    text-decoration: none;
+    text-shadow: #000 1px 1px 0px;
+    /*border-bottom: 1px #222 solid;*/
+}
+
+#showCaseNav li.highlight {
+    color: #eee;
+    background: #666;
+}
+
+/*========================================*/
+#resumePage {
+    padding: 0px 10px 5px 10px;
+}
+
+#resumePage h2 {
+    padding: 15px 0px 8px 0px;
+}
+
+#resumeInfo .panelContent {
+    padding: 0px !important;
+    height: 295px !important;
+    overflow: hidden !important;
+}
+
+/*=============*/
+#resumeInfo .jobItem .summary {
+    /*border-top: 1px solid #222;*/
+    border-bottom: 1px solid #222;
+    font-size: 14px;
+    line-height: 28px;
+    height: 28px;
+    /*position: relative;
+      top: 0px;*/
+    background-color: #333;
+}
+
+#resumeInfo .jobItem .summary .title {
+    padding-left: 8px;
+    float: left;
+    width: 150px;
+    font-weight: bold;
+}
+
+#resumeInfo .jobItem .summary, #resumeInfo .jobItem .summary a, #resumeInfo .jobItem .summary a:visited {
+    color: #aaa;
+}
+
+/*==over==*/
+
+#resumeInfo .jobItemOver .summary {
+    background-color: #444;
+}
+
+#resumeInfo .jobItemOver .summary, #resumeInfo .jobItemOver .summary a, #resumeInfo .jobItemOver .summary a:visited {
+    color: #eee;
+}
+
+#resumeInfo .jobItemOver .detail {
+
+}
+
+/*==over==*/
+#resumeInfo .jobItem .summary .company {
+    float: left;
+}
+
+#resumeInfo .jobItem .summary .date {
+    float: right;
+    padding-right: 8px;
+}
+#resumeInfo .jobItem {
+    overflow: hidden;
+}
+/*=======================*/
+#resumeInfo .jobItem .detail {
+    font-size: 13px;
+    line-height: 20px;
+    padding: 0px 12px;
+    overflow: hidden;
+    color: #555555;
+    /*display: none;*/
+    background-color: #111;
+
+    font-weight: 700;
+}
+
+#resumeInfo .jobItemOver .detail{
+    background-color: #000;
+}
+#resumeInfo .jobItem .detail li{
+    list-style-type: disc !important;
+    list-style-position: inside;
+}
+
+#resumeInfo .jobItem .detail .comment{
+    color:#333;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 18px;
+}
+#resumeInfo .jobItem .detail .job {
+    color: #777;
+    line-height: 22px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
